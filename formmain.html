@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Extended Form</title>
+  </head>
+  <style>
+    body{
+        background-image:url("/images/kingini.jpeg")
+        
+    }
+  </style>
+  <body bgcolor="black" style="font-family: Arial;">
+      
+      <form style="background-color: khaki;width: 350px; margin: auto;padding:1px;border-radius:5px">
+          <fieldset>
+              First Name:<br>
+              <input type="text" name="firstname" placeholder="Eg. Areeb"required>
+              <br>
+              Last Name:<br>
+              <input type="text" name="lastname" placeholder="Eg.Shah"required>
+              <br>
+  
+              Address:<br>
+              <textarea rows="5" cols="30" name="address" placeholder="eg.Mumbai,Bharat" required></textarea>
+              <br>
+  
+              Date of Birth: <input type="date" name="bday" required><br><br>
+              Gender: <br>
+              <fieldset>
+             <section required>
+              
+              <input type="radio" name="gender" value="male" checked>Male <br>
+              <input type="radio" name="gender" value="female">Female <br>
+              <input type="radio" name="gender" value="Walmart Bag">Walmart Bag <br>
+              <input type="radio" name="gender" value="Email">Email <br> 
+              <input type="radio" name="gender" value="King">King <br>
+              <input type="radio" name="gender" value="Chapri">Chapri <br> 
+              <input type="radio" name="gender" value="other">Other's (Inferior genders)<br>
+            </section></fieldset><br>
+  
+              Paisa Kitna Kamate Ho:<br>
+              <select name="income"  style="width: 100%;" required>
+                  <option value="2-3lakhs" selected>Hum pe to hai hi no</option>
+                  <option value="3-5lakhs">3-5 lakhs</option>
+                  <option value="Above 5 lakhs">Above 5 lakhs</option>
+                  <option value="1-3 lakhs">1-3 lakhs</option>
+              </select>
+              <br><br>
+              State:
+<input list="State" name="State" style="width: 100%;" required>
+<datalist id="State">
+    <option value="Andhra Pradesh">
+    <option value="Arunachal Pradesh">
+    <option value="Assam">
+    <option value="Bihar">
+    <option value="Chhattisgarh">
+    <option value="Goa">
+    <option value="Haryana">
+    <option value="Himachal Pradesh">
+    <option value="Jharkhand">
+    <option value="Karnataka">
+    <option value="Madhya Pradesh">
+    <option value="Maharashtra">
+    <option value="Manipur">
+    <option value="Meghalaya">
+    <option value="Mizoram">
+    <option value="Nagaland">
+    <option value="Odisha">
+    <option value="Punjab">
+    <option value="Rajasthan">
+    <option value="Sikkim">
+    <option value="Tamil Nadu">
+    <option value="Telangana">
+    <option value="Tripura">
+    <option value="Uttar Pradesh">
+    <option value="Uttarakhand">
+    <option value="West Bengal">
+    <option value="Seawoods-Darave" required>
+</datalist><br><br>
+
+  
+              User password: <br> 
+              <input type="password" name="psw" style="width: 100%;" placeholder="Enter a strong password" required> <br><br>
+  
+             Junior College Name:<br>
+              <input type="text" name="collegeName" style="width: 100%;" required>
+              <br><br>
+  
+              Major/Department:<br>
+              <input type="text" name="major" style="width: 100%;" required>
+              <br><br> College id:<br><input type="file" name="img"style="width: 100%;" ><br> Graduation Year:<br>
+              <input type="number" name="graduationyear" min="1999" max="2100"  style="width: 100%;" required>
+              <br><br>
+              Age:<br> <input type="number" min="1" max="100" style="width:100%;" required><br><br>
+  Phone number:<br> <input type="tel" name="phonenumber" placeholder="Enter a 10 digit number"> <br><br>
+              <input type="submit" value="Submit"><br> <input type="reset" value="reset"> 
+          </fieldset>
+      </form>
+  </body>
+  </html>
+ 
